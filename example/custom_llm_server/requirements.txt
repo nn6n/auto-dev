@@ -2,3 +2,4 @@ fastapi==0.109.1
 requests==2.31.0
 uvicorn
 sseclient-py
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
